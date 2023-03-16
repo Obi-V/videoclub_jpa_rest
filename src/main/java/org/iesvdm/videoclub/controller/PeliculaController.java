@@ -40,7 +40,6 @@ public class PeliculaController {
         return this.peliculaService.replace(id, pelicula);
     }
 
-
     @ResponseBody
     @ResponseStatus(HttpStatus.NO_CONTENT)
     @DeleteMapping("/{id}")
